@@ -1,0 +1,112 @@
+﻿/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 10px;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+
+    nav a {
+        margin: 0 10px;
+        color: #333;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+        nav a:hover {
+            color: #666;
+        }
+
+/* Content Styles */
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.medicine-list {
+    list-style: none;
+    padding: 0;
+}
+
+.medicine-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.add-to-cart-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+    footer p {
+        margin: 0;
+    }
+
+.footer-logo {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.quantity-input {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quantity-field {
+    width: 50px;
+    text-align: center;
+}
